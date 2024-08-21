@@ -1,13 +1,50 @@
 
-body{
-    background-color: black;
-    color: white;
+:root{
+    --fonte-principal: white;
+    --fundo: #221F30;
+    --blush: #60768B;
 }
 
-.center {
-    text-align: center;
+
+body{
+    color: white;
+    background-color: var(--fundo);
+}
+
+.pg-1{
+    margin: 50px;
+}
+
+.quadrados {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-left: none;
+    padding-left: none;
+}
+.--quad {
+    height: 250px;
+    margin: none;
+    padding: none;
+}
+
+a{
+    color: var(--fonte-principal);
+    text-decoration: none;
+}
+
+a:hover{
+    color: #8F3830;
+}
+
+.--link-1{   
+    font-size: 35px;
 }
 
 .center-2 {
     text-align: center;
+}
+
+.--logo{
+    filter: drop-shadow(1px 1px 20px var(--blush));
 }
